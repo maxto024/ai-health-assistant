@@ -1,0 +1,19 @@
+{
+  "name": "ai-health-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^5.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
